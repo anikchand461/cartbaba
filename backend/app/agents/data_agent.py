@@ -16,6 +16,6 @@ data_agent = Agent(
         "- No explanation\n"
         "- Remove incomplete items\n"
     ),
-    llm=get_llm("mixtral-8x7b-32768"),
+    llm=get_llm("llama-3.1-8b-instant"),
     verbose=True
 )

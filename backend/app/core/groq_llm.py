@@ -3,9 +3,9 @@ from app.core.config import settings
 
 client = Groq(api_key=settings.GROQ_API_KEY)
 
-def call_llm(prompt, model="llama3-8b-8192"):
+def call_llm(prompt, model="llama-3.1-8b-instant"):
     response = client.chat.completions.create(
-        model=model,
+        model=model,   # ⚠️ no "groq/" here
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
     )

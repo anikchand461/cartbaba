@@ -16,6 +16,6 @@ final_agent = Agent(
         "Format:\n"
         "Top recommendations with short explanations"
     ),
-    llm=get_llm("llama3-8b-8192"),
+    llm=get_llm("llama-3.3-70b-versatile"),
     verbose=True
 )

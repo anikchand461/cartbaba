@@ -15,6 +15,6 @@ def rank_products(products, query):
         )
 
         score = (0.7 * similarity) + (0.3 * p.get("rating", 3))
-        p["score"] = score
+        p["score"] = float(score)
 
     return sorted(products, key=lambda x: x["score"], reverse=True)

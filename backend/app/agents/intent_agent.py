@@ -25,6 +25,6 @@ intent_agent = Agent(
         '  "use_case": "running"\n'
         "}"
     ),
-    llm=get_llm("mixtral-8x7b-32768"),
+    llm=get_llm("llama-3.3-70b-versatile"),
     verbose=True
 )

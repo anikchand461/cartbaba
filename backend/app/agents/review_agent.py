@@ -14,6 +14,6 @@ review_agent = Agent(
         "Return ONLY filtered JSON list.\n"
         "No explanation."
     ),
-    llm=get_llm("llama3-8b-8192"),
+    llm=get_llm("llama-3.1-8b-instant"),
     verbose=True
 )
