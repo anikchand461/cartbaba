@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 40px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+}
